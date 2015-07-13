@@ -1,0 +1,26 @@
+body {
+  color: #fff; }
+
+img {
+  max-width: 100%; }
+
+header {
+  background: #000; }
+
+.channels {
+  background: #000;
+  display: flex;
+  height: 80vh; }
+
+.channel {
+  flex-grow: 1; }
+  .channel.selected {
+    background: yellow; }
+
+.control {
+  position: absolute;
+  top: 50%; }
+  .control.forward {
+    right: 1rem; }
+  .control.backward {
+    left: 1rem; }
